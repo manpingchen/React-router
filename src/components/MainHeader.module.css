@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  width: 96vw;
+  bottom: 2vw;
+  left: calc(50% - 48vw);
+  border-radius: 15px;
+  padding: 1vw 2vw;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(100deg, rgba(255, 241, 244, 0.459), rgba(255, 224, 214, 0.338));
+}
+
+.header nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2vw;
+}
+
+.header nav ul li {
+  text-align: center;
+}
+
+.header nav ul li a {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 0.87rem;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  background: white;
+}
