@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 
 * {
   box-sizing: border-box;
@@ -18,19 +18,19 @@ main {
   min-height: 50vw;
   width: 96vw;
   border-radius: 15px;
-  padding: 1vw 2vw;
+  padding: 1vw 10vw;
   background: linear-gradient(100deg, rgba(255, 241, 244, 0.459), rgba(255, 224, 214, 0.338));
 }
 
 a {
   color: rgb(44, 43, 46);
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   text-align: center;
 }
 
